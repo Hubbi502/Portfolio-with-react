@@ -1,0 +1,15 @@
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  overflow-y: hidden;        /* Hide vertical scrollbar */
+  overflow-x: hidden;        /* Hide horizontal scrollbar */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}

@@ -1,6 +1,6 @@
 import Image from "../assets/Image.png";
-import IconSection from "../components/HeroComponent/icon";
-import Title from "../components/HeroComponent/Title";
+import IconSection from "./HeroComponent/icon";
+import Title from "./HeroComponent/Title";
 const Hero = () => {
   return (
     <section className="bg-white dark:bg-transparent">

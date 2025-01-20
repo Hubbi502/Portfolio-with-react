@@ -1,3 +1,4 @@
+import TypingAnimation from "../../Animation/TypingAnimation";
 const Title = () => {
     return(
     <>
@@ -20,7 +21,7 @@ const Title = () => {
           </div>
 
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Transforming Ideas into Stunning Websites 💻 🌐
+            <TypingAnimation text="Transforming Ideas into Stunning Websites 💻 🌐" speed={100}/>
           </p>
     </>
     )
